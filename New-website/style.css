@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner {
+    position: relative;
+    background: url(picture/background.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.banner .navber {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+}
+.banner .navber ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+.banner .navber ul li {
+    list-style: none;
+    padding: 15px 10px;
+}
+.banner .navber ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.banner .navber ul li a:hover {
+    color: rgba(0,0,0,0.5);
+}
+.banner .first_nev {
+    width: 83%;
+    padding: 8px 19px;
+    font-size: 20px;
+    background: transparent;
+    border: 2px solid gray;
+    color: gray;
+    border-radius: 10px;
+}
+.banner .first_nev:hover {
+    color: white;
+    background: red;
+}
+.banner .center {
+    position: absolute;
+    max-width: 1000px;
+    top: 50%;
+    left: 27%;
+}
+.banner .center h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    text-shadow: 5px 5px 5px black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.banner .center p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-shadow: 5px 5px 5px black;
+    margin-top: 10px;
+    margin-left: 83px;
+}
+.banner .center .buttons {
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-size: 14px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    margin-left: 300px;
+}
